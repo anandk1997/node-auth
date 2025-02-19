@@ -1,0 +1,123 @@
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:32:45.156Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:33:15.412Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:33:34.411Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:33:45.135Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:33:55.766Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:34:05.499Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:34:32.655Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:43:33.573Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:43:38.849Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:43:48.778Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-19T15:46:03.650Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:15:46:03 +0000] \"POST /api/auth/register HTTP/1.1\" 400 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T15:46:03.662Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:46:37.570Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:47:13.932Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:48:37.360Z"}
+{"level":"error","message":"API Error: Invalid email format","timestamp":"2025-02-19T15:49:06.323Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:15:49:06 +0000] \"POST /api/auth/register HTTP/1.1\" 400 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T15:49:06.332Z"}
+{"level":"error","message":"API Error: Invalid email format","timestamp":"2025-02-19T15:49:41.950Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:15:49:41 +0000] \"POST /api/auth/register HTTP/1.1\" 400 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T15:49:41.954Z"}
+{"level":"error","message":"API Error: Expected string, received number","timestamp":"2025-02-19T15:49:51.323Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:15:49:51 +0000] \"POST /api/auth/register HTTP/1.1\" 400 63 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T15:49:51.333Z"}
+{"level":"error","message":"API Error: Password must be at least 8 characters","timestamp":"2025-02-19T15:49:59.054Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:15:49:59 +0000] \"POST /api/auth/register HTTP/1.1\" 400 69 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T15:49:59.057Z"}
+{"level":"error","message":"API Error: Password must contain at least one uppercase letter, one lowercase letter, one number and one special character","timestamp":"2025-02-19T15:50:05.677Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:15:50:05 +0000] \"POST /api/auth/register HTTP/1.1\" 400 142 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T15:50:05.681Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-19T15:50:19.835Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:15:50:19 +0000] \"POST /api/auth/register HTTP/1.1\" 400 39 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T15:50:19.838Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:15:50:33 +0000] \"POST /api/auth/register HTTP/1.1\" 201 313 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T15:50:33.829Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-19T15:51:30.263Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:15:51:30 +0000] \"GET /api/auth/profile HTTP/1.1\" 401 55 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T15:51:30.267Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-19T15:51:32.514Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:15:51:32 +0000] \"GET /api/auth/profile HTTP/1.1\" 401 55 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T15:51:32.520Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:15:52:30 +0000] \"GET /api/auth/profile HTTP/1.1\" 200 100 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T15:52:30.898Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:53:02.117Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:56:28.320Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:58:09.962Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T15:58:50.746Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T16:00:32.956Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T16:01:33.690Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T16:02:13.099Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:02:54.154Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:02:54 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:02:54.167Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:02:55.077Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:02:55 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:02:55.080Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:02:55.764Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:02:55 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:02:55.768Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:02:58 +0000] \"POST /api/auth/register HTTP/1.1\" 201 313 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:02:58.829Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:21.815Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:21 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:21.819Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:23.555Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:23 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:23.557Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:24.557Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:24 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:24.560Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:39 +0000] \"GET /api/auth/profile HTTP/1.1\" 200 100 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:39.471Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:42.580Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:42 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:42.585Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:43.409Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:43 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:43.413Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:43.880Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:43 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:43.883Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:44.158Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:44 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:44.161Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:44.393Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:44 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:44.397Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:44.583Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:44 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:44.586Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:44.798Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:44 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:44.800Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:44.999Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:45 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:45.002Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:45.424Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:45 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:45.426Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:03:48 +0000] \"GET /api/auth/profile HTTP/1.1\" 200 100 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:03:48.178Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T16:04:36.090Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:13.194Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:05:13 +0000] \"POST /api/auth/login HTTP/1.1\" 401 50 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:05:13.206Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:23.535Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:05:23 +0000] \"POST /api/auth/login HTTP/1.1\" 401 50 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:05:23.538Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:54.013Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:05:54 +0000] \"POST /api/auth/login HTTP/1.1\" 401 50 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:05:54.017Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:55.544Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:05:55 +0000] \"POST /api/auth/login HTTP/1.1\" 401 50 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:05:55.548Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:55.784Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:05:55 +0000] \"POST /api/auth/login HTTP/1.1\" 401 50 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:05:55.787Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:55.992Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:05:55 +0000] \"POST /api/auth/login HTTP/1.1\" 401 50 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:05:55.995Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:56.170Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:05:56 +0000] \"POST /api/auth/login HTTP/1.1\" 401 50 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:05:56.173Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:56.355Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:05:56 +0000] \"POST /api/auth/login HTTP/1.1\" 401 50 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:05:56.357Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:08.829Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:08 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:08.833Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:09.582Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:09 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:09.585Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:10.284Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:10 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:10.286Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:10.591Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:10 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:10.593Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:10.859Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:10 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:10.862Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:11.093Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:11 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:11.096Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:11.251Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:11 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:11.253Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:11.485Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:11 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:11.487Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:11.720Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:11 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:11.723Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:11.938Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:11 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:11.940Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:12.153Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:12 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:12.155Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:12.344Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:12 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:12.346Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:12.571Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:12 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:12.573Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:17.429Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:17 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:17.431Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:18.396Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:18 +0000] \"GET /api/auth/profile HTTP/1.1\" 404 45 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:18.398Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:24 +0000] \"POST /api/auth/register HTTP/1.1\" 201 313 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:24.384Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Feb/2025:16:06:37 +0000] \"POST /api/auth/login HTTP/1.1\" 200 313 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2025-02-19T16:06:37.404Z"}
+{"level":"info","message":"Server running on port 3000 in development mode","timestamp":"2025-02-19T16:10:37.051Z"}

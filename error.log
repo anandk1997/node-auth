@@ -1,0 +1,47 @@
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-19T15:46:03.650Z"}
+{"level":"error","message":"API Error: Invalid email format","timestamp":"2025-02-19T15:49:06.323Z"}
+{"level":"error","message":"API Error: Invalid email format","timestamp":"2025-02-19T15:49:41.950Z"}
+{"level":"error","message":"API Error: Expected string, received number","timestamp":"2025-02-19T15:49:51.323Z"}
+{"level":"error","message":"API Error: Password must be at least 8 characters","timestamp":"2025-02-19T15:49:59.054Z"}
+{"level":"error","message":"API Error: Password must contain at least one uppercase letter, one lowercase letter, one number and one special character","timestamp":"2025-02-19T15:50:05.677Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-19T15:50:19.835Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-19T15:51:30.263Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-19T15:51:32.514Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:02:54.154Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:02:55.077Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:02:55.764Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:21.815Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:23.555Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:24.557Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:42.580Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:43.409Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:43.880Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:44.158Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:44.393Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:44.583Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:44.798Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:44.999Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:03:45.424Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:13.194Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:23.535Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:54.013Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:55.544Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:55.784Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:55.992Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:56.170Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-19T16:05:56.355Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:08.829Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:09.582Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:10.284Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:10.591Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:10.859Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:11.093Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:11.251Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:11.485Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:11.720Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:11.938Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:12.153Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:12.344Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:12.571Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:17.429Z"}
+{"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:18.396Z"}
