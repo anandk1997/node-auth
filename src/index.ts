@@ -1,3 +1,6 @@
+import "module-alias/register";
+import "./setup-aliases";
+
 import express from "express";
 import helmet from "helmet";
 import cors from "cors";
@@ -13,7 +16,13 @@ const app = express();
 
 // Security middleware
 app.use(helmet());
-app.use(cors(config.cors));
+app.use(
+  cors({
+    ...config.cors,
+    methods: [...config.cors.methods],
+    allowedHeaders: [...config.cors.allowedHeaders],
+  }),
+);
 app.use(
   rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes
@@ -40,9 +49,9 @@ app.use("/api/auth", authRoutes);
 app.use(errorHandler);
 
 // Start server
-app.listen(config.port, () => {
+app.listen(config.PORT, () => {
   logger.info(
-    `Server running on port ${config.port} in ${config.nodeEnv} mode`,
+    `Server running on port ${config.PORT} in ${config.NODE_ENV} mode`,
   );
 });
 

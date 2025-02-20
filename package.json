@@ -2,9 +2,12 @@
   "name": "secure-rest-api",
   "version": "1.0.0",
   "private": true,
+  "_moduleAliases": {
+    "src": "dist"
+  },
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon",
+    "start": "node -r tsconfig-paths/register dist/index.js",
+    "dev": "nodemon --exec ts-node -r tsconfig-paths/register src/index.ts",
     "build": "tsc",
     "test": "jest",
     "lint": "eslint src/**/*.ts",
@@ -20,8 +23,10 @@
     "express-rate-limit": "^7.5.0",
     "helmet": "^8.0.0",
     "jsonwebtoken": "^9.0.2",
+    "module-alias": "^2.2.3",
     "morgan": "^1.10.0",
     "swagger-ui-express": "^5.0.1",
+    "tsconfig-paths": "^4.2.0",
     "winston": "^3.17.0",
     "zod": "^3.24.2"
   },
@@ -32,6 +37,7 @@
     "@types/express": "^5.0.0",
     "@types/jest": "^29.5.14",
     "@types/jsonwebtoken": "^9.0.8",
+    "@types/module-alias": "^2.0.4",
     "@types/morgan": "^1.9.9",
     "@types/node": "^22.13.4",
     "@types/swagger-ui-express": "^4.1.7",

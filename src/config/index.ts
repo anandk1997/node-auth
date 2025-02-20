@@ -4,7 +4,7 @@ import { z } from "zod";
 dotenv.config();
 
 const envSchema = z.object({
-  PORT: z.string().default("3000"),
+  PORT: z.string().default("5001"),
   NODE_ENV: z
     .enum(["development", "production", "test"])
     .default("development"),
@@ -16,20 +16,19 @@ const envSchema = z.object({
 
 const env = envSchema.parse(process.env);
 
-export const config = {
-  port: parseInt(env.PORT, 10),
-  nodeEnv: env.NODE_ENV,
+export const config = Object.freeze({
+  PORT: parseInt(env.PORT, 10),
+  NODE_ENV: env.NODE_ENV,
   jwt: {
-    accessSecret: env.JWT_ACCESS_SECRET,
-    refreshSecret: env.JWT_REFRESH_SECRET,
-    accessExpiry: env.JWT_ACCESS_EXPIRY,
-    refreshExpiry: env.JWT_REFRESH_EXPIRY,
+    ACCESS_SECRET: env.JWT_ACCESS_SECRET,
+    REFRESH_SECRET: env.JWT_REFRESH_SECRET,
+    ACCESS_EXPIRY: env.JWT_ACCESS_EXPIRY,
+    REFRESH_EXPIRY: env.JWT_REFRESH_EXPIRY,
   },
   cors: {
-    origin:
-      env.NODE_ENV === "production"
-        ? "https://yourdomain.com"
-        : "http://localhost:3000",
+    origin: "*",
+    methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
+    allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
   },
-} as const;
+} as const);

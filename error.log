@@ -45,3 +45,98 @@
 {"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:12.571Z"}
 {"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:17.429Z"}
 {"level":"error","message":"API Error: User not found","timestamp":"2025-02-19T16:06:18.396Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T03:56:27.969Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T03:57:00.948Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T03:58:10.338Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:04:01.198Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:15:30.722Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:15:31.747Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:15:32.045Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:15:32.317Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:15:32.539Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:15:32.712Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:18:30.286Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:18:31.135Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:18:31.515Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:18:31.700Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:18:31.899Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:18:32.074Z"}
+{"expiredAt":"2025-02-19T16:17:58.000Z","level":"error","message":"bbbbbbbbbbbb jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at authenticate (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\src\\middleware\\auth.middleware.ts:28:25)\n    at Layer.handle [as handle_request] (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:346:12)","timestamp":"2025-02-20T04:20:20.786Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:20:20.789Z"}
+{"expiredAt":"2025-02-19T16:17:58.000Z","level":"error","message":"bbbbbbbbbbbb jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at authenticate (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\src\\middleware\\auth.middleware.ts:28:25)\n    at Layer.handle [as handle_request] (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:346:12)","timestamp":"2025-02-20T04:20:21.478Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:20:21.480Z"}
+{"expiredAt":"2025-02-19T16:17:58.000Z","level":"error","message":"bbbbbbbbbbbb jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at authenticate (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\src\\middleware\\auth.middleware.ts:28:25)\n    at Layer.handle [as handle_request] (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:346:12)","timestamp":"2025-02-20T04:21:40.306Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:21:40.309Z"}
+{"level":"error","message":"bbbbbbbbbbbb No token provided","name":"ApiError","stack":"ApiError: No token provided\n    at authenticate (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\src\\middleware\\auth.middleware.ts:24:13)\n    at Layer.handle [as handle_request] (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:47:12)","statusCode":401,"timestamp":"2025-02-20T04:22:01.720Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:22:01.727Z"}
+{"level":"error","message":"bbbbbbbbbbbb No token provided","name":"ApiError","stack":"ApiError: No token provided\n    at authenticate (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\src\\middleware\\auth.middleware.ts:24:13)\n    at Layer.handle [as handle_request] (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\anand\\Downloads\\project-bolt-sb1-vgxnwqvg\\project\\node_modules\\express\\lib\\router\\index.js:47:12)","statusCode":401,"timestamp":"2025-02-20T04:23:34.400Z"}
+{"level":"error","message":"API Error: Invalid or expired token","timestamp":"2025-02-20T04:23:34.403Z"}
+{"level":"error","message":"API Error: No token provided","timestamp":"2025-02-20T04:28:11.626Z"}
+{"level":"error","message":"API Error: No token provided","timestamp":"2025-02-20T04:28:12.907Z"}
+{"level":"error","message":"API Error: No token provided","timestamp":"2025-02-20T04:47:53.217Z"}
+{"level":"error","message":"API Error: No token provided","timestamp":"2025-02-20T04:47:54.016Z"}
+{"level":"error","message":"API Error: No token provided","timestamp":"2025-02-20T04:47:54.327Z"}
+{"level":"error","message":"API Error: No token provided","timestamp":"2025-02-20T04:47:54.601Z"}
+{"level":"error","message":"API Error: No token provided","timestamp":"2025-02-20T04:47:54.803Z"}
+{"level":"error","message":"API Error: No token provided","timestamp":"2025-02-20T04:47:55.451Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-20T04:57:05.891Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T04:57:28.290Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T04:58:35.366Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:00:22.956Z"}
+{"level":"error","message":"API Error: Invalid email format","timestamp":"2025-02-20T05:01:40.643Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-20T05:04:00.742Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:12:26.601Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:12:28.712Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:12:29.144Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:12:29.403Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:12:29.652Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:12:29.865Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:12:30.059Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:12:30.243Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:12:30.428Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-20T05:24:26.750Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:24:38.828Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:24:39.854Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:24:40.487Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:24:40.718Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:24:40.934Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:24:41.136Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:24:41.318Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:28.739Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:31.819Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:32.312Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:32.613Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:32.830Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:33.045Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:33.243Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:33.440Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:33.645Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:33.846Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:34.074Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:34.294Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:35.377Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:35.879Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:36.125Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:36.350Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:36.572Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T05:25:36.795Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:25:41.402Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:25:42.147Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:25:42.399Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:25:42.617Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T05:25:42.806Z"}
+{"level":"error","message":"API Error: Required","timestamp":"2025-02-20T08:32:57.412Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T08:34:28.240Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T08:34:29.386Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T08:34:29.918Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T08:34:30.125Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T08:34:30.356Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T08:34:30.500Z"}
+{"level":"error","message":"API Error: Invalid credentials","timestamp":"2025-02-20T08:35:03.612Z"}
+{"level":"error","message":"API Error: Email is required............","timestamp":"2025-02-20T08:35:09.016Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T08:35:16.574Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T08:35:18.640Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T08:35:19.298Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T08:35:19.550Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T08:35:19.701Z"}
+{"level":"error","message":"API Error: Email is required","timestamp":"2025-02-20T08:35:19.907Z"}

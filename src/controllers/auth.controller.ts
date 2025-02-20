@@ -12,17 +12,17 @@ const generateTokens = (payload: TokenPayload): AuthTokens => {
   // Ensure the expiresIn values are correctly handled as strings
   const accessToken = jwt.sign(
     payload,
-    config.jwt.accessSecret as string,
+    config.jwt.ACCESS_SECRET as string,
     {
-      expiresIn: config.jwt.accessExpiry, // JWT accepts strings like '15m', '1h'
+      expiresIn: config.jwt.ACCESS_EXPIRY, // JWT accepts strings like '15m', '1h'
     } as SignOptions,
   );
 
   const refreshToken = jwt.sign(
     payload,
-    config.jwt.refreshSecret as string,
+    config.jwt.REFRESH_SECRET as string,
     {
-      expiresIn: config.jwt.refreshExpiry, // Same here for refresh expiry
+      expiresIn: config.jwt.REFRESH_EXPIRY, // Same here for refresh expiry
     } as SignOptions,
   );
 
@@ -39,7 +39,8 @@ export const register = async (
 
     const existingUser = users.find((user) => user.email === email);
     if (existingUser) {
-      throw new ApiError(400, "Email already registered");
+      new ApiError(400, "Email already registered");
+      return;
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
@@ -58,21 +59,14 @@ export const register = async (
 
     res.cookie("refreshToken", tokens.refreshToken, {
       httpOnly: true,
-      secure: config.nodeEnv === "production",
+      secure: config.NODE_ENV === "production",
       sameSite: "strict",
       maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
     });
 
     res.status(201).json({
       status: "success",
-      data: {
-        user: {
-          id: user.id,
-          email: user.email,
-          name: user.name,
-        },
-        accessToken: tokens.accessToken,
-      },
+      data: { user, accessToken: tokens.accessToken },
     });
   } catch (error) {
     next(error);
@@ -88,34 +82,31 @@ export const login = async (
     const { email, password } = req.body;
 
     const user = users.find((u) => u.email === email);
+
     if (!user) {
-      throw new ApiError(401, "Invalid credentials");
+      new ApiError(401, "Invalid credentials");
+      return;
     }
 
     const isValidPassword = await bcrypt.compare(password, user.password);
+
     if (!isValidPassword) {
-      throw new ApiError(401, "Invalid credentials");
+      new ApiError(401, "Invalid credentials");
+      return;
     }
 
     const tokens = generateTokens({ userId: user.id, email: user.email });
 
     res.cookie("refreshToken", tokens.refreshToken, {
       httpOnly: true,
-      secure: config.nodeEnv === "production",
+      secure: config.NODE_ENV === "production",
       sameSite: "strict",
       maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
     });
 
     res.json({
       status: "success",
-      data: {
-        user: {
-          id: user.id,
-          email: user.email,
-          name: user.name,
-        },
-        accessToken: tokens.accessToken,
-      },
+      data: { user, accessToken: tokens.accessToken },
     });
   } catch (error) {
     next(error);
@@ -137,19 +128,15 @@ export const getProfile = async (
 ) => {
   try {
     const user = users.find((u) => u.id === req.user?.userId);
+
     if (!user) {
-      throw new ApiError(404, "User not found");
+      new ApiError(404, "User not found");
+      return;
     }
 
     res.json({
       status: "success",
-      data: {
-        user: {
-          id: user.id,
-          email: user.email,
-          name: user.name,
-        },
-      },
+      data: { user },
     });
   } catch (error) {
     next(error);

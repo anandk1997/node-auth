@@ -1,2 +1,15 @@
 node_modules
-dist/
+# Keep environment variables out of version control
+*.local
+
+.DS_Store
+
+/.cache
+/build
+/public/build
+
+/blob-report/
+pnpm-lock.yaml
+yarn.lock
+dist
+.vscode

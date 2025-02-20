@@ -8,19 +8,21 @@ export const errorHandler = (
   res: Response,
   next: NextFunction,
 ): void => {
-  // return type is void, not Response
   if (err instanceof ApiError) {
     logger.error(`API Error: ${err.message}`);
+
     res.status(err.statusCode).json({
-      status: "error",
+      status: err.statusCode,
       message: err.message,
     });
+
     return;
   }
 
   logger.error(`Unhandled Error: ${err.message}`);
+
   res.status(500).json({
-    status: "error",
+    status: 500,
     message: "Internal server error",
   });
 };
